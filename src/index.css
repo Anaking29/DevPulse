@@ -1,0 +1,15 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap');
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: 'Space Grotesk', sans-serif;
+  background: #f8f8f6;
+  color: #111;
+  -webkit-font-smoothing: antialiased;
+}
+::selection { background: #111; color: #f8f8f6; }
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: #f8f8f6; }
+::-webkit-scrollbar-thumb { background: #111; }
